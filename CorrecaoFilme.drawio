@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T08:48:42.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.44" version="23.1.7" etag="BsyPCNuTsMYjnFbq7TF-" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T09:15:36.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.44" etag="qJuAWPuZSWMFTMZez61f" version="23.1.7" type="github">
   <diagram name="Página-1" id="nv7WigLkPktLNQAygH5s">
-    <mxGraphModel>
+    <mxGraphModel dx="886" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;FILME&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-2" value="&lt;u&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;IdFilme&lt;/font&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-1">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Nome&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-1">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Formato&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-1">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;DataLancamento&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-1">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Genero&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-1">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Duracao&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-1">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;CodigoIdioma&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-1">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;CodigoPais&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-1">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-11" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;IDIOMA&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-12" value="&lt;u&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;CodigoIdioma&lt;/font&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-11">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Idioma&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-11">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-20" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;GENERO&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="30" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-21" value="&lt;u&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;IdGenero&lt;/font&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-20">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TipoGenero&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-20">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-23" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;FORMATO&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-24" value="&lt;u&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;IdFormato&lt;/font&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-23">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-25" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TipoFormato&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-23">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-26" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;PAISORIGEM&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-33" value="&lt;u&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;CodigoPais&lt;/font&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-26">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAhsswzwIrCdv1I0DXgu-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pais&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KAhsswzwIrCdv1I0DXgu-26">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
